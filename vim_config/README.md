@@ -6,7 +6,12 @@ git clone https://github.com/elain/my_config.git ~/tmp/my_config
 /bin/mv ~/tmp/my_config/vim_config/vimrc ~/.vimrc
 ```
 
-打开vim,执行
+安装bundle
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+打开vim,执行下面命令安装插件
 ```
 PluginInstall
 ```
