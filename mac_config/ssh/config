@@ -1,0 +1,7 @@
+Host *
+    User dingtianmi
+    ServerAliveInterval 30
+    ControlMaster auto
+    ControlPath /tmp/ssh-%r@%h:%p
+    ControlPersist yes
+
